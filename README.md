@@ -99,14 +99,14 @@ total,|,497.35,2384.52,486.99,423.0,448.71,419.54,0,487.48,|,254,3128,254,179,17
 
 ```
 
-The table will list the runtime, number of test classes, number of test cases, static analysis time (only for jcgeks's 2 configurations), safety(T/F), and the number of missed test classes.
+The table will list the maven testing time, number of test classes, number of test cases, static analysis time (only for jcgeks's 2 configurations), safety(T/F), and the number of missed test classes.
 
 Finally, after the `total` column, the cumulative result of all information will be listed.
 
 Taking the `commons-imaging` project in the table as an example, its first commit ID is ca8be30b, and then the running time of each task is listed. The checker tool runs for 43.659s, the testall runs for 44.425s, and so on.
 
 # Analyzing single program
-If you are interested in several revisions of a benchmark program, e.g., `commons-imaging`(ca8be30b -> b6618f2c -> 23091f99), please navigate to the `scripts` directory, modify the `fin_projects.txt` configuration file first, then invoke `RTSTool.py` script.
+If you are interested in several revisions of a benchmark program, e.g., `commons-imaging`(ca8be30b -> b6618f2c -> 23091f99), please navigate to the `scripts` directory, modify the `fin_projects.txt` and `commons-imaging.config` configuration files first, then invoke `RTSTool.py` script.
 
 ```bash
 $ vi fin_projects.txt
