@@ -12,7 +12,7 @@ The artifact is provided as a docker image, which contains the prototype of the 
 # Running the artifact
 We assume that the following commands are run in sudo mode. 
 
-Firstly, pull the already prebuilt docker image from [docker hub](https://hub.docker.com/repository/docker/ase24rts/jcgeks/general). Please make sure its name is `ase24rts/jcgeks`.
+Firstly, pull the already prebuilt docker image from [docker hub](https://hub.docker.com/r/ase24rts/jcgeks/tags). Please make sure its name is `ase24rts/jcgeks`.
 ```sh
 $ docker pull ase24rts/jcgeks:v1.0
 ```
